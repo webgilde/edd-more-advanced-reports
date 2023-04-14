@@ -9,7 +9,9 @@
  */
 
 if ( is_admin() ) {
-	// include ( 'includes/extend-report-periods.php' );
-	include ( 'reports/charts/report-upcoming-renewals-chart.php' );
-	include ( 'reports/report-upcoming-renewals.php' );
+    // include ( 'includes/extend-report-periods.php' );
+    include ( 'reports/charts/report-upcoming-renewals-chart.php' );
+    include ( 'reports/report-upcoming-renewals.php' );
+    include ( 'reports/charts/report-cancelled-subscriptions-chart.php' );
+    include ( 'reports/report-cancelled-subscriptions.php' );
 }
